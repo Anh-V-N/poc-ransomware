@@ -6,7 +6,7 @@
 ### What do the scripts do
 Here is a summary of what each script is supposed to do.\
 **ransom.py**
-- Attempt to retrieve the uploaded publick key from pastebin.com
+- Attempt to retrieve the uploaded public key from pastebin.com
 - Generate a random AES key
 - Encrypt the AES key with the public key
 - Send the encrypted key and the hostname to the attacker by activate the canary token
