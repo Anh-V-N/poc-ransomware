@@ -20,6 +20,12 @@ Here is a summary of what each script is supposed to do.\
 **decryptor.py**
 - Recover the original files by decrypting the encrypted files using user provided key
 
+### Installation
+These script should run fine with python 3.8.5 or newer versions. You should also have pip3 installed. To install required libraries run:
+```
+pip3 install -r requirements.txt
+```
+
 ### To infect a target
 1. Generate RSA key pair with
 ```
