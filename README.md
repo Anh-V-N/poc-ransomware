@@ -4,7 +4,7 @@
 > Use at your own risk, I discourage using these scripts for malicious purposes or to attack others without  authorization and I take no reposibility for any damage that may be done by the usage of these scripts.\
 > DON'T RUN IT ON YOUR PERSONAL COMPUTER. It is recommended to try it out in a sandbox/virtualized environment.
 ### What do the scripts do
-Here is a summary of what each script is supposed to do.
+Here is a summary of what each script is supposed to do.\
 ransom.py :
 - Attempt to retrieve the uploaded publick key from pastebin.com
 - Generate a random AES key
@@ -18,7 +18,7 @@ rsa.py
 - Decrypt the content receive via canary token to retrieve the generated AES key 
 
 decryptor.py 
-- 
+- Recover the original files by decrypting the encrypted files using user provided key
 
 # To infect a target
 1. Generate RSA key pair with
