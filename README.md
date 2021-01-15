@@ -45,7 +45,7 @@ Prepare a dummy folder with a few random files
 Prepare the script 
 <img src='./screenshots/screenshot2.png'>
 
-Fire at the target folder. The files in this dummy directory are all encrypted and a ransom note can be found at the root folder.
+Fire at the target folder. The files in this dummy directory are all encrypted and a ransom note can be found at the root directory.
 <img src='./screenshots/screenshot3.png'>
 
 Canarytoken alert with the hostname and encrypted AES key 
