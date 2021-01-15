@@ -35,7 +35,7 @@ python3 rsa.py -g key
 ```
 python3 rsa.py key_private.pem
 ```
-Paste the hexlified encrypted content from user agent field of the email from canary token
+Paste the hexlified encrypted content from user agent field of the email from canary token\
 2. Run decryptor.py and paste the AES key when asked.
 
 ## Example
