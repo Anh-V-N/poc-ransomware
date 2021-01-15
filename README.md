@@ -5,7 +5,7 @@
 > DON'T RUN IT ON YOUR PERSONAL COMPUTER. It is recommended to try it out in a sandbox/virtualized environment.
 ### What do the scripts do
 Here is a summary of what each script is supposed to do.\
-ransom.py :
+**ransom.py**
 - Attempt to retrieve the uploaded publick key from pastebin.com
 - Generate a random AES key
 - Encrypt the AES key with the public key
@@ -13,11 +13,11 @@ ransom.py :
 - Start walking down from the root directory and encrypting any files it can
 - Leave a ransom note 
 
-rsa.py 
+**rsa.py**
 - Generate rsa key pairs if argument "-g" is used
 - Decrypt the content receive via canary token to retrieve the generated AES key 
 
-decryptor.py 
+**decryptor.py**
 - Recover the original files by decrypting the encrypted files using user provided key
 
 # To infect a target
