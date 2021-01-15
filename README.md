@@ -1,7 +1,7 @@
 # POC PYTHON RANSOMWARE
 ### Disclaimer:
 > This is my personal project for testing and educational purposes only.\
-> Use at your own risk, I take no reposibility for any damage that may be done by the usage of these scripts.\
+> Use at your own risk, I discourage using these scripts for malicious purposes or to attack others without  authorization and I take no reposibility for any damage that may be done by the usage of these scripts.\
 > DON'T RUN IT ON YOUR PERSONAL COMPUTER. It is recommended to try it out in a sandbox/virtualized environment.
 ### What do the scripts do
 Here is a summary of what each script is supposed to do.
@@ -40,25 +40,25 @@ Paste the hexlified encrypted content from user agent field of the email from ca
 
 ## Example
 Prepare a dummy folder with a few random files
-<img src='./screenshots/screenshot1.png'>\
+<img src='./screenshots/screenshot1.png'>
 
 Prepare the script 
-<img src='./screenshots/screenshot2.png'>\
+<img src='./screenshots/screenshot2.png'>
 
 Fire at the target folder
-<img src='./screenshots/screenshot3.png'>\
+<img src='./screenshots/screenshot3.png'>
 
 Canarytoken alert with the hostname and encrypted AES key 
-<img src='./screenshots/screenshot4.png'>\
+<img src='./screenshots/screenshot4.png'>
 
 Decrypt and retrieve the AES key using RSA private key
-<img src='./screenshots/screenshot5.png'>\
+<img src='./screenshots/screenshot5.png'>
 
 The ransom note also contain the AES key, it's the proof that the decryption process was indeed sucessful
-<img src='./screenshots/screenshot6.png'>\
+<img src='./screenshots/screenshot6.png'>
 
 Run decryptor.py to recover the original files
-<img src='./screenshots/screenshot7.png'>\
+<img src='./screenshots/screenshot7.png'>
 
 Original files are recovered. Their md5 hashes are exactly the same as before they were encrypted
 <img src='./screenshots/screenshot8.png'>
